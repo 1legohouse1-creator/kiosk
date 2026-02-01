@@ -23,7 +23,7 @@ def menu_button(category_name) :
     #st.markdown()
     #st.write(current_menu)
     
-    for name, price in curren_menu.items() :
+    for name, price in current_menu.items() :
         st.write(name, price)
 
 
