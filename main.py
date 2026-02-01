@@ -18,4 +18,17 @@ col_menu, col_cart = st.columns([0.7,0.3])
 with col_menu : 
   tab1, tab2, tab3 = st.tabs(["식사류", "안주류", "음료/주류"])
 
+def menu_button(category_name) : 
+    current_menu = menu_data.get(category_name)
+    #st.markdown()
+    print(current_menu)
+    
+with tab1 : menu_button("식사류")
+
+
+
+'''tab1 = menu_data.get("식사류")
+tab2 = menu_data.get("안주류")
+tab3 = menu_data.get("음료/주류")'''
+
 # 결제
