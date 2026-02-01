@@ -21,14 +21,10 @@ with col_menu :
 def menu_button(category_name) : 
     current_menu = menu_data.get(category_name)
     #st.markdown()
-    print(current_menu)
+    st.write(current_menu)
     
 with tab1 : menu_button("식사류")
 
 
-
-'''tab1 = menu_data.get("식사류")
-tab2 = menu_data.get("안주류")
-tab3 = menu_data.get("음료/주류")'''
 
 # 결제
