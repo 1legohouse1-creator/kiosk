@@ -24,7 +24,8 @@ def menu_button(category_name) :
     #st.write(current_menu)
     
     for name, price in current_menu.items() :
-        st.write(name, price)
+        st.write(name)
+        st.write(price, "원")
 
     st.button("담기")    
 
